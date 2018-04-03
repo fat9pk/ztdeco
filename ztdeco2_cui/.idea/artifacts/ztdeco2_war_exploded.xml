@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ztdeco2:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ztdeco2_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ztdeco2/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ztdeco2" />
+        </element>
+        <element id="library" level="project" name="commons-logging-1.2" />
+        <element id="library" level="project" name="Java EE 6-Java EE 6" />
+        <element id="library" level="project" name="lib" />
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="commons-logging-1.2" />
+          <element id="library" level="project" name="dwr" />
+          <element id="library" level="project" name="lib" />
+        </element>
+        <element id="library" level="project" name="aliyun-java-sdk-core" />
+        <element id="library" level="project" name="aliyun-java-sdk-dysmsapi" />
+      </element>
+    </root>
+  </artifact>
+</component>
